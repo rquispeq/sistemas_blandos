@@ -174,16 +174,16 @@
 Cuenta con 1 solo edificio, donde brinda todos los servicios que un hospital tiene.
 </p>
       </div>
+      <div class="row">
+      </div>        
       <!-- /.row (main row) -->
     </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    
   </footer>
   <!-- Control Sidebar -->
-  
   <!-- /.control-sidebar -->
   <!-- Add the sidebar's background. This div must be placed
        immediately after the control sidebar -->
@@ -197,6 +197,10 @@ Cuenta con 1 solo edificio, donde brinda todos los servicios que un hospital tie
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
   $.widget.bridge('uibutton', $.ui.button);
+  $('.carousel').carousel({
+  interval: 3000,
+  pause: false
+})
 </script>
 <!-- Bootstrap 3.3.6 -->
 <script src="../bootstrap/js/bootstrap.min.js"></script>
