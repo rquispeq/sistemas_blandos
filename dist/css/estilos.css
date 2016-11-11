@@ -40,12 +40,22 @@ p{
 .shadow{
 	-webkit-box-shadow: 1px 1px 25px 3px #242424;
 box-shadow: 1px 1px 25px 3px #242424;
-
-width: 100%;
-max-width: 500px;
+}
+img{
+	width: 100%;
+	max-width: 500px;
 }
 
+.perfil{
+	max-width: 300px;
+}
 
+.lista{
+	font-size: 17px;
+}
+.content-wrapper{
+	font-size: 18px;
+}
 #hero-wrapper {
   height: 100%;
   width: 100%;
