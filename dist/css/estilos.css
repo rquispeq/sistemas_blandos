@@ -32,3 +32,12 @@
 		color: white !important;
 	}
 }
+p{
+	text-align: justify;
+	font-size: 16px;
+}
+
+img{
+	-webkit-box-shadow: 1px 1px 25px 3px #242424;
+box-shadow: 1px 1px 25px 3px #242424;
+}
