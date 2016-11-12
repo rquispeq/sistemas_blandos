@@ -34,7 +34,7 @@
 }
 p{
 	text-align: justify;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .shadow{
@@ -43,7 +43,7 @@ box-shadow: 1px 1px 25px 3px #242424;
 }
 img{
 	width: 100%;
-	max-width: 500px;
+	max-width: 700px;
 }
 
 .perfil{
